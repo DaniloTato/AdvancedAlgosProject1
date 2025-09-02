@@ -26,7 +26,6 @@ std::vector<std::pair<int,int>> find(std::string& txt, std::string& pat){
         char next_char_after_pattern = txt[s + m];
         int next_char_value = badchar[next_char_after_pattern];
         if (j < 0) {
-            std::cout << "pattern occurs at shift = " << s << std::endl;
             answer.push_back(std::make_pair(s,s+m-1));
             int next_char_value = badchar[next_char_after_pattern];
             if(s + m < n){
