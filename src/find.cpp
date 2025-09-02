@@ -1,6 +1,6 @@
 #include "../include/find.hpp"
 #include <string>
-#include <iostream>
+#include <vector>
 #include <utility>
 #define NO_OF_CHARS 256
 
